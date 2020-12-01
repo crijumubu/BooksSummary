@@ -1,0 +1,27 @@
+﻿<Window x:Class="Books_Sumaary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Books_Sumaary"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Fondo.png"/>
+        </Grid.Background>
+        <Frame Name="mainFrame" NavigationUIVisibility="Hidden" Content=""/>
+        <Label Name="lblTitulo"  Content="Books &#xD;&#xA;Summary" HorizontalAlignment="Left" Margin="279,76,0,0" VerticalAlignment="Top" FontSize="50" FontWeight="Black" FontStyle="Italic" Width="251" Height="146" RenderTransformOrigin="0.5,0.5" Foreground="#FF0A1045">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-7"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-7"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Name="btnComenzar" Content="¡Comienza ahora!" HorizontalAlignment="Center" Margin="0,276,0,0" VerticalAlignment="Top" Height="34" Width="134" FontSize="14" FontWeight="Bold" FontStyle="Italic" Background="#FF0A1045" BorderBrush="White" Foreground="White" RenderTransformOrigin="0,0" Click="BtnComenzar_Click"/>
+    </Grid>
+</Window>
+    

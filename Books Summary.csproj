@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Books_Sumaary</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Boton.png" />
+    <None Remove="Fondo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extra\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Boton.png" />
+    <Resource Include="Fondo.png" />
+  </ItemGroup>
+
+</Project>
