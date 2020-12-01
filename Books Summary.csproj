@@ -8,17 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Boton.png" />
+    <None Remove="Extra\Fondo.png" />
     <None Remove="Fondo.png" />
+    <None Remove="Prohibido Rendirse.jpg" />
+    <None Remove="Quién se ha llevado mi queso.jpg" />
+    <None Remove="Sangre de campeón INVENCIBLE.jpg" />
+    <None Remove="Sangre de campeón SIN CADENAS.jpg" />
+    <None Remove="Ética para amador.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Extra\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Boton.png" />
     <Resource Include="Fondo.png" />
+    <Resource Include="Prohibido Rendirse.jpg" />
+    <Resource Include="Quién se ha llevado mi queso.jpg" />
+    <Resource Include="Sangre de campeón INVENCIBLE.jpg" />
+    <Resource Include="Sangre de campeón SIN CADENAS.jpg" />
+    <Resource Include="Ética para amador.jpg" />
   </ItemGroup>
 
 </Project>
