@@ -1,6 +1,12 @@
 --------------DOCUMENTOS--------------
-Ética para Amador|C:\Users\Administrador\source\repos\Books Summary\Extra\Ética para Amador.txt
-Prohibido Rendirser|C:\Users\Administrador\source\repos\Books Summary\Extra\Prohibido Rendirse.txt
-¿Quién se ha llevado mi queso?|C:\Users\Administrador\source\repos\Books Summary\Extra\¿Quién se ha llevado mi queso?.txt
-Sangre de campeón INVENCIBLE|C:\Users\Administrador\source\repos\Books Summary\Extra\Sangre de campeón INVENCIBLE.txt
-Sangre de campeón SIN CADENAS|C:\Users\Administrador\source\repos\Books Summary\Extra\Sangre de campeón SIN CADENAS.txt
+Ética para Amador|C:\Users\Administrador\source\repos\Books Summary\Extra\Etica para Amador.txt
+Prohibido Rendirse|C:\Users\Administrador\source\repos\Books Summary\Extra\Prohibido Rendirse.txt
+¿Quién se ha llevado mi queso?|C:\Users\Administrador\source\repos\Books Summary\Extra\Quien se ha llevado mi queso.txt
+Sangre de campeón INVENCIBLE|C:\Users\Administrador\source\repos\Books Summary\Extra\Sangre de campeon INVENCIBLE.txt
+Sangre de campeón SIN CADENAS|C:\Users\Administrador\source\repos\Books Summary\Extra\Sangre de campeon SIN CADENAS.txt
+---------------IMÁGENES---------------
+Ética para Amador|Ética para Amador.jpg
+Prohibido Rendirse|Prohibido Rendirse.jpg
+¿Quién se ha llevado mi queso?|Quién se ha llevado mi queso.jpg
+Sangre de campeón INVENCIBLE|Sangre de campeón INVENCIBLE.jpg
+Sangre de campeón SIN CADENAS|Sangre de campeón SIN CADENAS.jpg

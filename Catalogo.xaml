@@ -9,23 +9,23 @@
       Title="Catalogo">
 
     <ScrollViewer>
-        <Grid Background="White" ScrollViewer.VerticalScrollBarVisibility="Visible">
-            <Label Content="Catálogo" HorizontalAlignment="Center" Margin="0,-3,0,0" VerticalAlignment="Top" Height="79" Width="237" RenderTransformOrigin="0.5,0.5" FontSize="50" FontWeight="Black" FontStyle="Italic" Foreground="#FF0A1045"/>
-            <Image HorizontalAlignment="Left" Height="136" Margin="99,105,0,0" VerticalAlignment="Top" Width="102" Source="/Ética para amador.jpg"/>
-            <Image HorizontalAlignment="Left" Height="126" Margin="270.3,110,0,0" VerticalAlignment="Top" Width="82" Source="/Prohibido Rendirse.jpg"/>
-            <Image HorizontalAlignment="Left" Height="128" Margin="441,109,0,0" VerticalAlignment="Top" Width="95" Source="/Quién se ha llevado mi queso.jpg"/>
-            <Image HorizontalAlignment="Left" Height="128" Margin="612,109,0,0" VerticalAlignment="Top" Width="95" Source="/Sangre de campeón INVENCIBLE.jpg"/>
-            <Image HorizontalAlignment="Center" Height="134" Margin="0,305,0,0" VerticalAlignment="Top" Width="84" Source="/Sangre de campeón SIN CADENAS.jpg"/>
-            <Border BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Left" Height="140" Margin="91,103,0,0" VerticalAlignment="Top" Width="102"/>
-            <Border BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Left" Height="140" Margin="260,103,0,0" VerticalAlignment="Top" Width="102"/>
-            <Border BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Left" Height="140" Margin="431,103,0,0" VerticalAlignment="Top" Width="102"/>
-            <Border BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Left" Height="140" Margin="603,103,0,0" VerticalAlignment="Top" Width="102"/>
-            <Border BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Center" Height="140" Margin="0,299,0,0" VerticalAlignment="Top" Width="102"/>
-            <Button Name="btnBook1" Content="Ética para Amador" HorizontalAlignment="Left" Margin="83,248,0,0" VerticalAlignment="Top" Width="118" BorderBrush="White" Background="White" FontSize="13" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF41463D" Click="BtnInformacionLibro_Click"/>
-            <Button Name="btnBook2" Content="Prohibido Rendirse" HorizontalAlignment="Left" Margin="252,248,0,0" VerticalAlignment="Top" Width="118" BorderBrush="White" Background="White" FontSize="13" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF41463D" Click="BtnInformacionLibro_Click"/>
-            <Button Name="btnBook3" Content="¿Quién se ha llevado&#xA;        mi queso?" HorizontalAlignment="Left" Margin="418,248,0,0" VerticalAlignment="Top" Width="127" BorderBrush="White" Background="White" FontSize="13" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF41463D" Click="BtnInformacionLibro_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-            <Button Name="btnBook4" Content="Sangre de campeón&#xA;      INVENCIBLE" HorizontalAlignment="Left" Margin="593,248,0,0" VerticalAlignment="Top" Width="122" BorderBrush="White" Background="White" FontSize="13" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF41463D" Click="BtnInformacionLibro_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-            <Button Name="btnBook5" Content="Sangre de campeón&#xA;    SIN CADENAS" HorizontalAlignment="Center" Margin="0,444,0,0" VerticalAlignment="Top" Width="122" BorderBrush="White" Background="White" FontSize="13" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF41463D" Click="BtnInformacionLibro_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Grid Background="White" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="553">
+            <Label Content="Catálogo" HorizontalAlignment="Center" Margin="0,-3,0,0" VerticalAlignment="Top" Height="76" Width="763" RenderTransformOrigin="0.5,0.5" FontSize="50" FontWeight="Black" FontStyle="Italic" Foreground="#FF0A1045" HorizontalContentAlignment="Center"/>
+            <Image Name="imgBook1" HorizontalAlignment="Left" Height="136" Margin="99,105,0,0" VerticalAlignment="Top" Width="102"/>
+            <Image Name="imgBook2" HorizontalAlignment="Left" Height="126" Margin="270.3,110,0,0" VerticalAlignment="Top" Width="82"/>
+            <Image Name="imgBook3" HorizontalAlignment="Left" Height="128" Margin="441,109,0,0" VerticalAlignment="Top" Width="95"/>
+            <Image Name="imgBook4" HorizontalAlignment="Left" Height="128" Margin="612,109,0,0" VerticalAlignment="Top" Width="95"/>
+            <Image Name="imgBook5" HorizontalAlignment="Center" Height="134" Margin="0,305,0,0" VerticalAlignment="Top" Width="84"/>
+            <Border Name="borBook1" BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Left" Height="160" Margin="45,97,0,0" VerticalAlignment="Top" Width="125"/>
+            <Border Name="borBook2" BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Left" Height="160" Margin="232,97,0,0" VerticalAlignment="Top" Width="125"/>
+            <Border Name="borBook3" BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Left" Height="160" Margin="419,97,0,0" VerticalAlignment="Top" Width="125"/>
+            <Border Name="borBook4" BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Left" Height="160" Margin="606,97,0,0" VerticalAlignment="Top" Width="125"/>
+            <Border Name="borBook5" BorderThickness="1.5" BorderBrush="#FF0A1045" HorizontalAlignment="Center" Height="160" Margin="0,328,0,0" VerticalAlignment="Top" Width="126"/>
+            <Button Name="btnBook1" Content="Ética para Amador" HorizontalAlignment="Left" Margin="45,267,0,0" VerticalAlignment="Top" Width="131" BorderBrush="White" Background="#FFFDFFFC" FontSize="14" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF1F271B" Click="BtnInformacionLibro_Click"/>
+            <Button Name="btnBook2" Content="Prohibido Rendirse" HorizontalAlignment="Left" Margin="232,267,0,0" VerticalAlignment="Top" Width="125" BorderBrush="White" Background="White" FontSize="14" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF1F271B" Click="BtnInformacionLibro_Click"/>
+            <Button Name="btnBook3" Content="¿Quién se ha llevado&#xA;        mi queso?" HorizontalAlignment="Left" Margin="410,267,0,0" VerticalAlignment="Top" Width="143" BorderBrush="White" Background="White" FontSize="14" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF1F271B" Click="BtnInformacionLibro_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Name="btnBook4" Content="Sangre de campeón&#xA;      INVENCIBLE" HorizontalAlignment="Left" Margin="603,267,0,0" VerticalAlignment="Top" Width="131" BorderBrush="White" Background="White" FontSize="14" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF1F271B" Click="BtnInformacionLibro_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Name="btnBook5" Content="Sangre de campeón&#xA;    SIN CADENAS" HorizontalAlignment="Center" Margin="0,491,0,0" VerticalAlignment="Top" Width="128" BorderBrush="White" Background="White" FontSize="14" FontWeight="SemiBold" FontStyle="Italic" Foreground="#FF1F271B" Click="BtnInformacionLibro_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         </Grid>
     </ScrollViewer>
 </Page>

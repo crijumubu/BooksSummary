@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace Books_Sumaary
 {
@@ -21,6 +22,25 @@ namespace Books_Sumaary
         public InformacionLibro()
         {
             InitializeComponent();
+            BitmapImage bi3 = new BitmapImage();
+            bi3.BeginInit();
+            bi3.UriSource = new Uri(Libro.RutaImagen, UriKind.Relative);
+            bi3.EndInit();
+            imgLibro.Stretch = Stretch.Fill;
+            imgLibro.Source = bi3;
+            lblNombreLibro.Content = Libro.Nombre;
+            Libro.AsignarSinopsis();
+            txtOutput.Text = Libro.Sinopsis;
+        }
+        private void BtnConocerMas_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = (MainWindow)Window.GetWindow(this);
+            w.mainFrame.NavigationService.Navigate(new Detalles());
+        }
+        private void BtnVolver_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = (MainWindow)Window.GetWindow(this);
+            w.mainFrame.NavigationService.Navigate(new Catalogo());
         }
     }
 }

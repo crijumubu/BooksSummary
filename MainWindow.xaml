@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Books_Sumaary"
         mc:Ignorable="d"
-        Title="Books Summary" Height="450" Width="800">
+        Title="Books Summary" Height="450" Width="800" MinWidth="800" MaxWidth="800" MinHeight="450" MaxHeight="450" Icon="/Logo.png">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="17*"/>
@@ -25,7 +25,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Button Name="btnComenzar" Content="¡Comienza ahora!" HorizontalAlignment="Left" Margin="265,276,0,0" VerticalAlignment="Top" Height="34" Width="134" FontSize="14" FontWeight="Bold" FontStyle="Italic" Background="#FF0A1045" BorderBrush="White" Foreground="White" RenderTransformOrigin="0,0" Click="BtnComenzar_Click" Grid.Column="1"/>
+        <Button Name="btnComenzar" Content="¡Comienza ahora!" HorizontalAlignment="Left" Margin="265,276,0,0" VerticalAlignment="Top" Height="34" Width="134" FontSize="14" FontWeight="Bold" FontStyle="Italic" Background="#FF0A1045" BorderBrush="#FF0A1045" Foreground="#FFFDFFFC" RenderTransformOrigin="0,0" Click="BtnComenzar_Click" Grid.Column="1"/>
     </Grid>
 </Window>
     

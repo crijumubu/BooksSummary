@@ -10,6 +10,7 @@
   <ItemGroup>
     <None Remove="Extra\Fondo.png" />
     <None Remove="Fondo.png" />
+    <None Remove="Logo.png" />
     <None Remove="Prohibido Rendirse.jpg" />
     <None Remove="Quién se ha llevado mi queso.jpg" />
     <None Remove="Sangre de campeón INVENCIBLE.jpg" />
@@ -19,11 +20,12 @@
 
   <ItemGroup>
     <Resource Include="Fondo.png" />
+    <Resource Include="Logo.png" />
     <Resource Include="Prohibido Rendirse.jpg" />
     <Resource Include="Quién se ha llevado mi queso.jpg" />
     <Resource Include="Sangre de campeón INVENCIBLE.jpg" />
     <Resource Include="Sangre de campeón SIN CADENAS.jpg" />
-    <Resource Include="Ética para amador.jpg" />
+    <Resource Include="Ética para Amador.jpg" />
   </ItemGroup>
 
 </Project>
