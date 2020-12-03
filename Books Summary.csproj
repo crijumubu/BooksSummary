@@ -3,8 +3,14 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Books_Sumaary</RootNamespace>
+    <RootNamespace>Books_Summary</RootNamespace>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
+    <Authors>Cristian Julian Muñoz Buenahora</Authors>
+    <Company>Universidad Pontifica Bolivariana</Company>
+    <Copyright>Copyright © 2020</Copyright>
+    <AssemblyName>Books Summary</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
