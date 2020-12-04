@@ -35,7 +35,7 @@ namespace Books_Sumaary
                 }
                 EmptyFolder(new DirectoryInfo(rutaCarpeta));
                 WebClient cliente = new WebClient();
-                string rutaDescarga = "https://download1489.mediafire.com/54z8juu4xo1g/saeekactjv1qkss/Documentos.zip";
+                string rutaDescarga = "https://download1641.mediafire.com/6vvyyhyxdjug/eqkkwq9b1nq1wgk/Documentos.zip";
                 string rutaDelZip = @"C:\Users\Administrador\source\repos\Books Summary\Extra\Documentos.zip";
                 cliente.DownloadFile(rutaDescarga, rutaDelZip);
                 ZipFile.ExtractToDirectory(rutaDelZip, rutaCarpeta);
@@ -46,9 +46,7 @@ namespace Books_Sumaary
                 MessageBox.Show("Ha ocurrido un error, esto se debe a que no pudimos cargar los archivos necesarios para el funcionamiento de la aplicación, esto puede ser causado por problemas de internet o que no tienes los permisos de administrador requeridos para el funcionamiento de la aplicación", "¡ERROR!", MessageBoxButton.OK, MessageBoxImage.Error);
                 this.Close();
             }
-
         }
-
         private void BtnComenzar_Click(object sender, RoutedEventArgs e)
         {
             MainWindow w = (MainWindow)Window.GetWindow(this);
