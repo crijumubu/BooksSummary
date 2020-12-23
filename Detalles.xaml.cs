@@ -38,7 +38,7 @@ namespace Books_Sumaary
             string filename = getFilename(Libro.EnlaceDescarga);
             WebClient cliente = new WebClient();
             cliente.DownloadFile(Libro.EnlaceDescarga, rutaDirectorio + "/" + filename);
-            MessageBox.Show("Tú documento se ha descargado se forma exitosa, ve y compruebalo tu mismo en el escritorio", "¡Solicitud exitosa!", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show("Tu documento se ha descargado se forma exitosa, ve y compruébalo tú mismo en el escritorio", "¡Solicitud exitosa!", MessageBoxButton.OK, MessageBoxImage.Information);
         }
         private string getFilename(string hreflink)
         {
