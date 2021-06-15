@@ -54,7 +54,7 @@ namespace Books_Sumaary
         {
             string nombreLibro = "";
             string rutaLibro = "";
-            string RutaTxt = @"C:\Users\Administrador\Books Summary\Rutas.txt";
+            string RutaTxt = @"C:\Program Files\Books Summary\Rutas.txt";
             string[] content = File.ReadAllLines(RutaTxt);
             bool ok = false;
             for (int i=1; i < 6; i++)
@@ -97,7 +97,7 @@ namespace Books_Sumaary
         {
             string nombreLibro = "";
             string rutaImagen = "";
-            string RutaTxt = @"C:\Users\Administrador\Books Summary\Rutas.txt";
+            string RutaTxt = @"C:\Program Files\Books Summary\Rutas.txt";
             string[] content = File.ReadAllLines(RutaTxt);
             bool ok = false;
             for (int i = 7; i < 12; i++)
@@ -138,7 +138,7 @@ namespace Books_Sumaary
         }
         public static void AsignarSinopsis()
         {
-            string rutaSinopsis = @"C:\Users\Administrador\Books Summary\Sinopsis.txt";
+            string rutaSinopsis = @"C:\Program Files\Books Summary\Sinopsis.txt";
             string[] content = File.ReadAllLines(rutaSinopsis);
             string textoSinopsis = "";
             bool ok = false;
@@ -179,7 +179,7 @@ namespace Books_Sumaary
         }
         public static void AsignarRutaDescarga()
         {
-            string rutaDescarga = @"C:\Users\Administrador\Books Summary\Rutas de descarga.txt";
+            string rutaDescarga = @"C:\Program Files\Books Summary\Rutas de descarga.txt";
             string[] content = File.ReadAllLines(rutaDescarga);
             string enlace = "";
             bool ok = false;
