@@ -36,6 +36,18 @@ namespace Books_Sumaary
         {
             string rutaDirectorio = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             WebClient cliente = new WebClient();
+            if (Libro.Nombre.Contains('?'))
+            {
+                string newNombre = "";
+                foreach (var c in Libro.Nombre)
+                {
+                    if (c != '¿' && c != '?')
+                    {
+                        newNombre += c;
+                    }
+                }
+                Libro.Nombre = newNombre;
+            }
             cliente.DownloadFile(new Uri(Libro.EnlaceDescarga), rutaDirectorio + "/" + Libro.Nombre + ".pdf");
             MessageBox.Show("Tu documento se ha descargado se forma exitosa, ve y compruébalo tú mismo en el escritorio", "¡Solicitud exitosa!", MessageBoxButton.OK, MessageBoxImage.Information);
         }

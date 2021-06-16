@@ -42,6 +42,8 @@ namespace Books_Sumaary
                     break;
                 }
             }
+
+            //MessageBox.Show("Nom: " + nombreLibro + ". Nom sender: " + ((Button)sender).Content);
             MainWindow w = (MainWindow)Window.GetWindow(this);
             w.mainFrame.NavigationService.Navigate(new InformacionLibro());
         }
